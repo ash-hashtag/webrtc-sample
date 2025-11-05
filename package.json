@@ -1,0 +1,15 @@
+{
+  "name": "webrtc-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "esbuild --bundle src/index.ts --outdir=dist"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.18.1"
+  }
+}
